@@ -1,0 +1,14 @@
+.card-body h5 {
+    font-weight: 800;
+}
+
+.card-body p {
+    color: #b2b0b0;
+}
+a.second-link {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+}
+

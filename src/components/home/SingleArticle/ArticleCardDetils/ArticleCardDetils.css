@@ -1,0 +1,203 @@
+/* top background image start */
+.articleDitails{
+    padding-top: 100px;
+background-color: #000;
+}
+.login{
+    padding-top: 100px;
+    background-color: #000;
+ }
+ .articles{
+     background-image: linear-gradient(180deg, #000000B3 0%, #000000 100%),url(https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/fresh-tasty-burger.jpg);
+ background-size: cover;
+ background-position:center center;
+ }
+ .article-content-text{
+    padding: 130px 0px 120px 0px;
+    margin-top: -100px;
+    text-align: center;
+ }
+ .article-content-text h1{
+     color: #fff;
+     font-size: 38px;
+     font-weight: 700;
+     position: relative;
+     margin-bottom: 50px;
+ }
+ .article-content-text p{
+     color: rgb(173, 173, 173);
+     
+ }
+ .article-content-text h1:before {
+     position: absolute;
+     content: '';
+     width: 130px;
+     height: 3px;
+     background: orange;
+     bottom: -30px;
+     left: 45%;
+ }
+/* top background image end */
+
+
+
+.right-img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: initial;
+}
+.right-img1{
+height: 38%;
+}
+.right-textp p{
+    color: #aea9a9;
+}
+.abram img{
+    width: 100%;
+}
+.first1all-content {
+    margin-top: 27px;
+}
+
+.first1all-content h5 {
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.row.checks-icon {
+    margin-top: 19px;
+    color: #a4a4a4;
+}
+.abram p{
+    color: #aea9a9;
+margin-top: 20px;
+}
+.row.checks-icon p{
+    margin-top: 15px;
+}
+.sochial-icon p{
+    margin-left: 50px;
+    color: orange;
+}
+.row.right-linksArticle {
+    margin-top: 20px;
+    border-bottom: 1px solid #ffa50052;
+    padding-bottom: 28px;
+}
+.futher-txt h5 {
+    color: #ffffffe0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var( --e-global-typography-14d4eb6-font-family ), Sans-serif;
+}
+.futher-txt small:last-child {
+    margin-left: 9px;
+}
+
+.futher-txt small {
+    color: #999898;
+}
+.futher-txt {
+    margin-top: 24px;
+}
+h5.left-art-title {
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 46px;
+}
+
+h5.left-art-title:before {content: '';width: 100px;height: 4px;background: orange;display: block;position: absolute;bottom: -22px;}
+
+
+
+.catagory {
+    margin-top: 45px;
+}
+
+h4.title2 {
+    color: #fff;
+    margin-bottom: 44px;
+    position: relative;
+}
+
+h4.title2:before {content: '';width: 66px;height: 3px;background: orange;display: block;position: absolute;top: 44px;}
+
+
+
+.title3 h5 {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-left: 47px;
+    margin-top: 18px;
+}
+
+.title3 h5:before {content: '';width: 36px;height: 3px;display: block;background: orange;position: absolute;left: -45px;top: 10px;}
+
+
+.titlimg {
+    margin-top: 50px;
+}
+
+
+.titlimg {
+    margin-top: 50px;
+    position: relative;
+}
+
+.titlimftext {
+    position: absolute;
+    top: 82px;
+    width: 296px;
+    text-align: center;
+    left: 56px;
+    z-index: 1;
+    color: #fff;
+}
+/* overley */
+.titleoverley {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.titlimftext h5 {
+    font-weight: 800;
+}
+
+.titlimftext p {
+    color: #cbc4c4;
+}
+.right-textp {
+    margin-top: 16px;
+}
+.fuck2{
+    display: flex;
+    justify-content: flex-end;
+}
+.fuck2 {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:768px) {
+    .right-img1 {
+        height: 20%;
+    }
+    .right-img img {
+        width: 100%;
+        height: 20%;
+        object-fit: cover;
+    }
+    .first-lft-stap {
+        margin-top: 50px;
+    }
+    .d-flex.fuck1 {
+        margin: auto;
+        width: 150px;
+    }
+}

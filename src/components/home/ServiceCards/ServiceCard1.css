@@ -1,0 +1,96 @@
+.card {
+    border: 0;
+    background-color: black;
+}
+img#card-img {
+    width: 60%;
+    object-fit: contain;
+ 
+}
+.card-img-area {
+    background: #171717;
+    border-radius: 24px;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 244px;
+   
+}
+div#react-tabs-1 {
+    padding: 17px 30px;
+}
+.card-body {
+    color: #fff;
+    padding: 28px 0px;
+}
+.enter-card {
+    padding: 0 3px;
+}
+.card-title.h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+p.card-text h5 {
+    color: orange;
+    font-weight: 800;
+}
+.single-card {
+    margin-top: 37px;
+    
+}
+.text-center.text-white.mb-2 p {
+    width: 42%;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 44px;
+    color: #9e9c9c;
+}
+
+.mb-2.text-center.text-white h1 {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.mb-2.text-center.text-white h1:before {
+    content: '';
+    background: orange;
+    width: 170px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    left: 43%;
+    bottom: -20px;
+}
+a.first-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 23px;
+    color: rgba(255, 166, 0, 0.863);
+    font-weight: 600;
+    font-size: 16px;
+}
+@media (max-width:768px) {
+    .card-img-area {
+        height: 275px;
+        width: 100%;
+    }
+    img#card-img {
+        width: 70%;
+    
+    }
+    div#react-tabs-1 {
+        padding: 10px 6px;
+    }
+    .text-center.text-white.mb-2 p {
+        width: 100%;
+  
+    }
+    .mb-2.text-center.text-white h1:before {
+        left: 30%;  
+    }
+
+}
+
+
+

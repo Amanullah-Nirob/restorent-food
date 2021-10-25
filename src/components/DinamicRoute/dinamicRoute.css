@@ -1,0 +1,93 @@
+/* top background image start */
+.dinamic-ditails{
+    padding-top: 100px;
+background-color: #000;
+padding-bottom: 50px;
+}
+
+ .dinamicroutess{
+     background-image: linear-gradient(180deg, #000000B3 0%, #000000 100%),url(https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/burger-with-cheese-on-top-and-vegetable-on-the-flaming-grill.jpg);
+ background-size: cover;
+ background-position:center center;
+ }
+ .dinamicrout-content-text{
+    padding: 130px 0px 120px 0px;
+    margin-top: -100px;
+    text-align: center;
+ }
+ .dinamicrout-content-text h1{
+     color: #fff;
+     font-size: 38px;
+     font-weight: 700;
+     position: relative;
+     margin-bottom: 50px;
+ }
+ .dinamicrout-content-text p{
+     color: rgb(173, 173, 173);
+     
+ }
+ .dinamicrout-content-text h1:before {
+     position: absolute;
+     content: '';
+     width: 130px;
+     height: 3px;
+     background: orange;
+     bottom: -30px;
+     left: 45%;
+ }
+/* top background image end */
+.row.dinamic-all-centent {
+    display: flex;
+    align-items: center;
+}
+.d-flex.fillik {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fuckl{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+a.confrim-link {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+}
+
+.d-flex.fillik {
+    width: 194px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    border: 1px solid #ffa50042;
+    padding: 7px 15px;
+    border-radius: 35px;
+}
+.col-lg-6.col-md-12.col-12.dinamix-text p {
+    color: #ffffff85;
+    margin-top: 13px;
+    margin-bottom: 27px;
+}
+
+.col-lg-6.col-md-12.col-12.dinamix-text h1 {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

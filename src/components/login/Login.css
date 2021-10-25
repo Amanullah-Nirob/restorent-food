@@ -1,0 +1,278 @@
+.login{
+   padding-top: 100px;
+   background-color: #000;
+}
+.loginOrRegister{
+    background-image: linear-gradient(180deg, #000000B3 0%, #000000 100%),url(https://templatekit.jegtheme.com/burgry/wp-content/uploads/sites/132/2021/08/male-friends-drinking-beer-and-eating-burgers-in-sports-bar.jpg);
+background-size: cover;
+background-position:center center;
+}
+.login-content-text{
+    padding: 180px 0px 120px 0px;
+   margin-top: -100px;
+   text-align: center;
+}
+.login-content-text h1{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 50px;
+}
+.login-content-text p{
+    color: rgb(173, 173, 173);
+    
+}
+.login-content-text h1:before {
+    position: absolute;
+    content: '';
+    width: 130px;
+    height: 3px;
+    background: orange;
+    bottom: -30px;
+    left: 45%;
+}
+
+.loginbtn{
+    display: block;
+    margin: auto;
+}
+
+/* log in start */
+/* Appointment-section */
+.Appointment-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Appointment-section-all-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+
+.Appointment-section-container{
+    width: 1170px;
+margin: 80px 0;
+padding: 10px 13px;
+}
+
+.left-content-img{
+   flex-basis: 50%;
+
+}
+.left-content-img img{
+   width: 100%;
+
+}
+
+.right-content-form{
+    flex-basis: 50%;
+}
+
+.Appointment-title{
+text-align: center;
+
+
+}
+.Appointment-title span{
+background-color: rgba(255, 166, 0, 0.233);
+padding: 10px 15px;
+color:orange;
+font-weight: bold;
+margin-right: 2px;
+border-radius: 3px;
+font-size: 2.1rem;
+margin-top: 10px;
+display: inline-block;
+}
+form {
+    background-color: #080808;
+    padding: 15px 26px 16px 25px;
+    margin-left: 14px;
+   
+}
+.form-title {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 13px;
+    margin-bottom: -16px;
+    font-weight: 700;
+  
+}
+.form-title span{
+    background-color: rgba(255, 166, 0, 0.137);
+    color: orange;
+    padding: 0px 3px 3px 7px;
+    font-size: 23px;
+    margin-right: 1px;
+}
+
+.all-baje-icon {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img.iconbaje {
+    width: 32px;
+    border-radius: 14px;
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+form input {
+    width: 100%;
+    padding: 13px;
+    font-size: 15px;
+    text-transform: none;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #252525;
+    color: orange;
+}
+input[type="checkbox"] {
+    width: 20px;
+}
+form p {
+    font-size: 19px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    color: #6f6c6c;
+}
+.left-text h1 {
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.left-text p{
+    color: #fff;
+}
+
+.left-text h1:before {
+    width: 124px;
+    height: 3px;
+    background: orange;
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -22px;
+}
+.single-box {
+    margin-left: 25px;
+    color: #fff;
+}
+.left-context-single-box{
+    display: flex;
+}
+.single-box p {
+    line-height: 22px;
+}
+.icon {
+    font-size: 41px;
+    color: orange;
+}
+.left-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    margin-top: 8px;
+}
+
+.bottom-owner {
+    display: flex;
+    margin-top: 27px;
+}
+.left-all-content {
+    height: 100%;
+    padding: 0 4px;
+}
+.left-text {
+    margin-bottom: 26px;
+}
+.left-bottom-text h2 {
+    color: orange;
+    text-transform: capitalize;
+}
+
+.left-bottom-text {
+    padding: 5px 14px;
+}
+
+.left-bottom-text p {
+    color: #979797;
+    text-align: justify;
+   
+}
+.left-img {
+    width: 301%;
+}
+
+
+
+@media (max-width:768px) {
+ 
+.Appointment-section-all-content {
+    flex-direction: column;
+}
+
+.Appointment-title span {
+    padding: 4px 8px;
+    font-size: 1.5rem;
+}
+
+
+.right-content-form{
+   flex-basis: 100%;
+   margin-top: 10px;
+   margin-left: -12px;
+
+}
+form {
+    padding: 15px 26px 18px 25px;
+   
+   
+}
+.left-content-img{
+    flex-basis: 100%;
+    width: 100%;
+
+}
+.left-all-content {
+   
+    padding: 0 0px;
+}
+.left-content-box {
+ padding: 0
+  
+}
+.bottom-owner {
+ display: block; 
+}
+.left-context-single-box {
+    display: block; 
+    text-align: center;
+}
+.single-box {
+  margin-left: 0
+
+}
+.login-content-text {
+    padding: 180px 0px 4px 0px;
+
+}.left-img {
+    width: 100%
+}
+.left-bottom-text {
+    border-bottom: 1px solid #ffa5004f;
+}
+
+}
+

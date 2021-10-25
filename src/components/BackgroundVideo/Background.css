@@ -1,0 +1,177 @@
+.video-container {
+    overflow: hidden;
+    height: 100%;
+    background-image: linear-gradient(black,black);
+    z-index: -1;
+}
+
+.backgotund-area {
+    height: 695px;
+    margin-bottom: 110px;
+   position: relative;
+   color: #fff;
+}
+/* background video overley */
+.overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+  
+}
+.overlay-off .video-overlay {
+    z-index: 0;
+}
+.container.area {
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    left: 38%;
+    top: 300px;
+    color: #fff;
+    z-index: 1;
+}
+.container.area p {
+    color: #bababa;
+}
+.bac-icon i {
+    font-size: 28px;
+    background-color: orange;
+    width: 63px;
+    height: 63px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 59px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    background: radial-gradient( orange, orange);
+    box-shadow: 0px 0px 30px 0px orange;
+}
+.bac-icon i::after {
+    content: "";
+    position: absolute;
+    left: 252px;
+    top: 13%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+    transform: translateX(-40%) translateY(-50%);
+    transform-origin: center center;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #fff;
+    z-index: 100;
+    -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  .bac-icon i:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    animation-delay: 0s;
+    animation: pulsate1 2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid orange;
+    top: -5%;
+    left: 41%;
+    background: orange;
+  }
+ 
+  
+@-webkit-keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      opacity: 1;
+      box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+  
+  @keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      opacity: 1;
+      box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+
+
+  .container.area h1:before {
+    content: '';
+    background: orange;
+    width: 146px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: 166px;
+    top: 54px;
+}
+
+.container.area h1 {
+    position: relative;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+    .container.area {
+     width: 100%;
+        left: 0;
+        top: 69px;
+    }
+    .bac-icon i::after {
+        left: 201px;
+    top: 16%;
+    }
+    .bac-icon i:before {
+        top: -1%;
+        left: 39%;
+    }
+    video {
+        width: 190%;
+    }
+    .container.area h1 {
+        font-size: 28px;
+    }
+    .container.area h1:before {
+        left: 124px;
+        top: 44px;
+    }
+    .bac-icon i {
+        margin-bottom: 19px;
+        margin-top: 10px;
+    }
+    .backgotund-area {
+        height: 400px;
+    }
+    .simple-contact-right-text {
+        margin-top: 10px;
+    }
+
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.header {
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#nav a{
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ddd;
+}
+.navbar-logo{
+    width: 149px;
+
+}
+#btn{
+    width: 165px;
+    height: 49px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+nav#nab button {
+    border: 1px solid orange;
+}
+.userphoto {
+    width: 58%;
+    border-radius: 34px;
+}
+#meno-img{
+width: 25%;
+}
+.meno-imgandemail {
+    text-align: center;
+    padding: 17px 9px;
+    border-bottom: 1px solid #ffa50075;
+}
+.meno-imgandemail h5 {
+    color: #fff;
+}
+.others{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+
+    
+}
+.animated{
+    animation:spin 1s linear infinite;
+}
+
+.others h5{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 16px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.oothers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff52;
+}
+.oothers:hover{
+    background: linear-gradient(#484848, #383838);
+}
+
+.animated2{
+    animation: mover 1s infinite  alternate;
+}
+.display {
+    background: transparent;
+    width: 53px;
+    height: 53px;
+    text-align: center;
+    padding: 12px 8px;
+    border-radius: 27px;
+    border: 1px solid orange;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* slide navbnar */
+ /* ------------------------------------------------------------------------------------------------------ */
+ .menu-content {
+    padding: 15px 10px;
+    border: 1px solid #ffffff29;
+}
+ .main-nav {
+	 position: fixed;
+	 top: 65px;
+     right: 196px;
+	 width: 0;
+     background: #0f0f11;
+	 overflow-y: auto;
+	 transition: width 0.3s ease;
+     z-index: 1;
+    
+}
+ .main-nav a {
+	 display: block;
+	 background: linear-gradient(#0f0f11, #0f0f11);
+	 /* border-top: 1px solid #484848; */
+	 border-bottom: 1px solid #2e2e2e;
+	 color: white;
+	 padding: 15px;
+}
+ .main-nav a:hover, .main-nav a:focus {
+	 background: linear-gradient(#484848, #383838);
+}
+ .main-nav:after {
+	 content: "";
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 height: 100%;
+	 width: 34px;
+	 background: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+ .content {
+	 padding: 100px 20px 20px 20px;
+}
+
+ .close-menu {
+	 display: none;
+     text-decoration: none;
+}
+ #main-nav:target {
+	 width: 20%;
+     z-index: 1;
+}
+ #main-nav:target + .page-wrap {
+	 width: 80%;
+}
+ #main-nav:target + .page-wrap .open-menu {
+	 display: none;
+}
+ #main-nav:target + .page-wrap .close-menu {
+	 display: block;
+}
+ #main-nav:target + .page-wrap .main-header {
+	 width: 80%;
+	 left: 20%;
+}
+ 
+
+
+
+@media (max-width:768px) {
+    .userphoto {
+        width: 17%;
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

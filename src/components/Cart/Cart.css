@@ -1,0 +1,21 @@
+.cart{
+    padding: 180px 0
+}
+.col-lg-4.col-md-6.col-6.first {
+    display: flex;
+    justify-content: flex-end;
+}
+.gfirst{
+    display: flex;
+    align-items: center;
+}
+.col-lg-4.col-md-6.col-6.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-lg-4.col-md-6.col-6.thrid {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
